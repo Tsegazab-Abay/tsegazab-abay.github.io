@@ -451,7 +451,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-business-automation-pipeline",
+          title: 'Business Automation Pipeline',
+          description: "Automated file management and data extraction using Python and Pandas.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/01_automation_pipeline/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
